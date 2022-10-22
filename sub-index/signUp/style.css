@@ -1,0 +1,185 @@
+.container-sign{
+  background: #fff;
+}
+.box-sign-in{
+  display: flex !important;
+  height: 100vh;
+}
+.panel{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-panel{
+  background: #218eee;
+  border-radius: 10% 0% 65% 0% / 0% 0% 100% 100% ;
+}
+.content{
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.content > h3 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.content p {
+  width: 350px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.image{
+  transform: scale(0.7);
+}
+.sign-in-form{
+  width: 50%;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.input-field{
+  background: #F1EFF1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.input-field + .input-field {
+  margin-top: 16px;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.fas{
+  color: #AEACAE;
+  margin-left: 20px;
+}
+
+.input-field > input {
+  border: none;
+  background: transparent;
+  padding: 12px;
+  width: 300px;
+}
+
+.btn{
+  background-color: #5396FC;
+  color:#fff;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 22px;
+  margin: 16px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+
+.social-text{
+  color: #474446;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+.social-icon{
+  color: #474446;
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+
+.box-sign-up{
+  display: flex !important;
+  height: 100vh;
+}
+.sign-up-form{
+  width: 50%;
+  color: #474446;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-panel{
+  background: #218eee;
+  border-radius: 10% 0% 0% 65% / 0% 0% 100% 100% ;
+}
+
+
+
+
+.slick-btn{
+  border-radius: 0;
+  border-radius: 30px;
+  width: auto;
+  font-size: 1.5rem;
+  padding: 16px 21px;
+  height: 0;
+  line-height: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+}
+#dangNhap{
+  top: 158px;
+  right: 279px;
+}
+
+.slick-btn.remove{
+  visibility: hidden !important;
+}
+
+#dangKy{
+  top: 158px;
+  left: 288px;
+}
+
+.slick-btn.pull {
+  visibility: hidden !important;
+  transition: 0s;
+}
+
+.slick-btn:hover {
+  color: #ddd;
+  border: 1px solid #ddd;
+  
+}

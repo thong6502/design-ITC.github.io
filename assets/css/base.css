@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #1c9ad5;
+    --text-white: #fff;
+    --text-black: #000;
+}
+
+
+* {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    box-sizing: border-box;
+}

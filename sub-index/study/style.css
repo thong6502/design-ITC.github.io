@@ -1,0 +1,171 @@
+.container-main-1{
+    height: 70vh;
+    position: relative;
+}
+.container-main-1 .img-main1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.container-main-1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.container-main-1 .description{
+    font-size: 4.1rem;
+    position: absolute;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+
+
+.container-main-2{
+    background-color: #f3f3f3;
+    padding: 90px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-main-2 .container1{
+    width: 75%;
+    background-color: #fff;
+}
+.container-main-2 .container2{
+    width: 23%;
+    padding-left: 15px;
+    padding-top: 23px;
+    background: #fff;
+}
+.container-main-2 .container2 p{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #3a4145;
+}
+.container-main-2 .container2 .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.7rem;
+}
+
+.container-main-2 .container2 li{
+    margin-top: 16px;
+}
+.container-main-2 .container2 .link{
+    color: #555;
+}
+.container-main-2 .container2 .link:hover{
+    color: #0e84bb;
+}
+
+.container-main-2 .container1 {
+    padding: 8px;
+}
+
+.container-main-2 .container1 .sub-container1{
+    display: flex;
+}
+
+.container-main-2 .container1 .img-kh {
+    width: 50%;
+    height: 246px;
+    position: relative;
+}
+.container-main-2 .container1 .img-kh img{
+    object-fit: cover;
+    object-position: center top;
+}
+.container-main-2 .container1 .img-kh .free{
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    padding: 14px;
+    border-radius: 62% 38% 43% 57% / 53% 26% 74% 47% ;
+    background-color: #2b5ca9a8;
+}
+.container-main-2 .container1 .description{
+    width: 50%;
+}
+.container-main-2 .container1 .description .ltw{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.container-main-2 .container1 .free{
+    font-size: 2.6rem;
+    display: inline-block;
+}
+.container-main-2 .container1 .dkh{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 8px 0;
+    background-color: #1c9ad5;
+    transition: all .3s;
+}
+.container-main-2 .container1 .dkh:hover{
+    background-color: #0e84bb;
+}
+
+.container-main-2 .container1 .hoc-gi{
+    font-size: 1.7rem;
+    text-decoration: underline;
+    margin:8px 0;
+}
+
+.container-main-2 .container1 .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-main-2 .container1 .nav li {
+    width: 45%;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    display: flex;
+}
+.container-main-2 .container1 .nav i{
+    margin-right: 8px;
+}
+
+.container-main-2 .container1 .sub-container2{
+
+}
+.container-main-2 .container1 .sub-container2 .ndkh{
+    font-size: 1.7rem;
+    text-decoration: underline;
+    margin: 8px 0;
+}
+.container-main-2 .container1 .sub-container2 p{
+    font-size: 1.4rem;
+}
+
+.container-main-2 .container1 .sub-container3 {
+    margin-top: 32px;
+}
+
+.container-main-2 .container1 .sub-container3 p{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    margin-bottom: 6px;
+}
+.container-main-2 .container1 .sub-container3 iframe{
+    width: 100%;
+    height: 500px;
+}
